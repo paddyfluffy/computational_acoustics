@@ -1,0 +1,6 @@
+FROM dolfinx/dolfinx:stable
+# Optional: set working directory and install extra stuff
+WORKDIR /home/acoustics
+COPY . /home/acoustics/
+RUN pip install -r requirements.txt || true
+
