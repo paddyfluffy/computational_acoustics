@@ -1,1 +1,2 @@
-git+https://github.com/a-latyshev/dolfinx-external-operator.git@v0.9.0
+git+https://github.com/a-latyshev/dolfinx-external-operator.git@v0.9.0#
+matplotlib
